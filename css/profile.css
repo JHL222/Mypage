@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'WAGURITTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* @media screen and (min-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+} */
+body{
+    background-color: rgb(236, 250, 240);
+    font-family: 'WAGURITTF';
+    font-size: 2vmin;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.topbar{
+    width: 100vw;
+    height: 8%;
+    position: fixed;
+    list-style-type: none;
+    display: inline-flex;
+
+}
+.topbar li{
+    display: inline-block;
+    padding-left: 4vw;
+}
+.topbar a{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 3vmin;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;   
+}
+
+.topbar:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.content{
+    width: 100vw;
+}
+
+#mainimg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/main.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#introduce{
+    position: relative;
+    top: 50vh;
+    right: 10vw;
+}
+#introduce div{
+    width: 100vw;
+    text-align: right;
+    font-size: 8vmin;
+    letter-spacing: 2px;
+    font-family: 'Giants-Inline';
+    color:burlywood;
+}
+#fs{
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;   
+}
+.page2{
+    width: 100vw;
+    height: 100vh;
+}
+
+#pr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.myphoto{
+    width: 35vw;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.selfie{
+    border-radius: 50%;
+    width: 35vw;
+}
+
+.profile{
+    width: 40vw;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.profile1{
+    width:10vw;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    padding-left: 0px;
+    line-height: 2;
+}
+
+.profile2{
+    width: 15vw;
+    display: inline-block;
+    list-style:none;
+    line-height: 2;
+}
+
+.history{
+    width: 50vw;
+    display: inline-block;
+    position:relative;
+    margin-left: 5vw;
+}
+
+.history1{
+    width: 15vw;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+    padding-left: 0px;
+}
+.history2{
+    width: 30vw;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    padding-left: 0px;
+    line-height: 2;
+}
+#wab{
+    color:burlywood;
+    text-align: left;
+}
+
+.page3{
+    width: 100vw;
+    height: 100vh;
+}
+.graphmain{
+    padding-top: 20vw;
+    padding-left: 10vw;
+}
+.graph{
+    width: 30vw;
+    height: 5vh; 
+    margin: 0 0 30px;
+    
+}
+.graph span{
+    display: block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    background: burlywood;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    animation: stack 2s 1;
+}
+.graph.stack1 span{ background: burlywood; animation:stack1 2s 1;}
+.graph.stack2 span{ background: burlywood; animation:stack2 2s 1;}
+.graph.stack3 span{ background: burlywood; animation:stack3 2s 1;}
+.graph.stack4 span{ background: burlywood; animation:stack4 2s 1;}
+.graph.stack5 span{ background: burlywood; animation:stack5 2s 1;}
+.graph.stack6 span{ background: burlywood; animation:stack6 2s 1;}
+
+@keyframes stack1{
+    0%{width: 0; color: rgba(255,255,255,0);}
+    40%{color: rgba(255,255,255,1);}
+    100%{width: 60%}
+}
+@keyframes stack2{
+    0%{width: 0; color: rgba(255,255,255,0);}
+    40%{color: rgba(255,255,255,1);}
+    100%{width: 50%}
+}
+@keyframes stack3{
+    0%{width: 0; color: rgba(255,255,255,0);}
+    40%{color: rgba(255,255,255,1);}
+    100%{width: 50%}
+}
+@keyframes stack4{
+    0%{width: 0; color: rgba(255,255,255,0);}
+    40%{color: rgba(255,255,255,1);}
+    100%{width: 75%}
+}
+@keyframes stack5{
+    0%{width: 0; color: rgba(255,255,255,0);}
+    40%{color: rgba(255,255,255,1);}
+    100%{width: 70%}
+}
+@keyframes stack6{
+    0%{width: 0; color: rgba(255,255,255,0);}
+    40%{color: rgba(255,255,255,1);}
+    100%{width: 60%}
+}
+
+.page4{
+    width: 100vw;
+    height: 100vh;
+}

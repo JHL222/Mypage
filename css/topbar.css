@@ -1,0 +1,27 @@
+.topbar{
+    width: 100vw;
+    height: 8%;
+    position: fixed;
+    list-style-type: none;
+    display: inline-flex;
+
+}
+.topbar li{
+    display: inline-block;
+    padding-left: 5vw;
+}
+.topbar a{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 5vh;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;   
+}
+
+.topbar:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
